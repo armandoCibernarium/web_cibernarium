@@ -1,11 +1,48 @@
-/*SELECTORES CSS */
+/*INICI CAPÇALERA ------------------------------------*/
 /*Selector de etiqueta (directament amb
 el nom de l'etiqueta del HTML)*/
 header{ /*selector css*/
-  height: 170px; /*Nom de la propietat : valor propietat*/
-  background-color: red;
+  height: 120px; /*Nom de la propietat : valor propietat*/
+  background-color: #808080;
+  /*Posicionament elements del header*/
+  /*display flex*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*apliquem "padding" (espai fins a dintre del contenidor)*/
+  padding: 30px;
 }
-h1{
-  color: blue;
-  font-size: 30px;
+/*Selector per ID*/
+/*faig referència a l'element amb id="logo" amb el simbol #*/
+#logo{
+  width: 100px;
 }
+/*FIN CAPÇALERA ----------------------------------------------*/
+/*INICI CONTINGUT PRINCIPAL ----------------------------------*/
+/*tot el main amb text centrat*/
+main{
+  text-align: center;
+}
+/*estils del fomulari*/
+form{
+  /* border: gruix tipuslinia color  */
+  border: 1px solid black;
+  width: 30%;
+  /*2 valors: 1(adalt-abaix , dreta-esquerra)*/
+  /*apliquem "margin" per centrar el form (espai per fora del contenidor)*/
+  margin: 30px auto;
+  /*padding*/
+  padding: 20px;
+}
+/*tamanys dels elements del form*/
+input, textarea, button{
+  width: 100%;
+  /*espai entre ells*/
+  margin: 10px;
+}
+/*elimina l'opció de redimensionar el "textarea"*/
+textarea{
+  resize: none;
+}
+/*FIN CONTINGUT PRINCIPAL ----------------------------------------------*/
+/**/
