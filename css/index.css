@@ -1,5 +1,9 @@
 body{
   font-family: 'Montserrat', sans-serif;
+  /* aplica margin i padding 0 per treure l'espai
+  que deixa el navegador per defecte */
+  margin: 0;
+  padding: 0;
 }
 /*INICI CAPÇALERA ------------------------------------*/
 /*Selector de etiqueta (directament amb
